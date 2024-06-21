@@ -1,0 +1,69 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(255, 255, 255);
+
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/*form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+}*/
+
+td {
+  width: 25%;
+}
+h1 {
+  background-color: #002438;
+  color: white;
+  padding: 10px;
+}
+
+input,
+select,
+textarea {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* #editItem {
+  border-radius: 15px;
+  border: none;
+  padding: 8px;
+  color: white;
+} */
+
+/* #addItem {
+  background-color: rgb(161, 216, 140);
+} */
+/* #editItem {
+  background-color: red;
+} */
+
+.main,
+.holder {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.req,
+.error {
+  color: red;
+}
+#astrk {
+  font-size: small;
+}
+
+/* #add {
+  background-color: rgb(134, 228, 134);
+} */
